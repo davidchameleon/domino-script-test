@@ -1,0 +1,144 @@
+<mjml>
+   <mj-head>
+      <mj-title>Domino Core: Video</mj-title>
+      <mj-include path="../includes/master-de-classes.mjml" />
+      <mj-include path="../includes/master-de-styles.mjml" />
+   </mj-head>
+
+   <mj-body background-color="#f1f1f1">
+      <mj-include path="../includes/master-de-header-markup.mjml" />
+
+      <!-- Email Image -->
+      <mj-section background-color="#ffffff" padding="0">
+         <mj-column>
+            <mj-text padding-top="0" padding-bottom="0">
+               <img src="http://placehold.jp/550x265.png" alt="" width="100%" pardot-region="hero-image" pardot-region-type="image">
+            </mj-text>
+         </mj-column>
+      </mj-section>
+      <!-- ./ Email Image -->
+
+      <!-- Email Body -->
+      <mj-section mj-class="body">
+         <mj-column>
+            <mj-spacer height="15px" />
+
+            <!-- Heading -->
+            <mj-text align="center" mj-class="text-heading">
+               <span pardot-region="heading-text" pardot-removable="heading-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui dolor sit amet.</span>
+            </mj-text>
+            
+            <!-- Paragraphs -->
+            <mj-text align="left" mj-class="text-paragraphs">
+               <div pardot-region="body-text" pardot-removable="body-text" pardot-region-type="basic">   
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+               </div>
+            </mj-text>
+
+            <!-- Button -->
+            <mj-raw>
+               <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;" pardot-removable="main-button">
+                  <tr>
+                    <td align="center" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                        <tr>
+                          <td align="center" bgcolor="#00904b" role="presentation" style="border:none;border-radius:3px;cursor:auto;padding:11px 45px;background:#00904b;" valign="middle">
+                            <a href="#" style="background:#00904b;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;" target="_blank" pardot-region="button-1" pardot-region-type="link">Download action 1</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+               </table>
+            </mj-raw>
+
+            <mj-spacer height="15px" />
+         </mj-column>
+      </mj-section>
+      <!-- ./ Email Body -->
+
+      <!-- TWO COL IMG/TEXT/BUTTON -->
+
+      <mj-raw><div pardot-repeatable></mj-raw>
+
+      <!-- img row -->
+      <mj-section background-color="#ffffff" padding-bottom="0">
+         <mj-column padding-bottom="0">
+            <mj-text padding-bottom="0">
+               <img src="http://placehold.jp/250x116.png" alt="Featured Image" pardot-region="col-image" pardot-region-type="image">
+            </mj-text>
+         </mj-column>
+
+         <mj-column padding-bottom="0">
+            <mj-text padding-bottom="0">
+               <img src="http://placehold.jp/250x116.png" alt="Featured Image" pardot-region="col-image" pardot-region-type="image">
+            </mj-text>
+         </mj-column>
+      </mj-section>
+
+      <!-- text row -->
+      <mj-section background-color="#ffffff" padding-top="0" padding-bottom="0">
+         <mj-column padding-top="0" padding-bottom="0">
+            <mj-text align="left" mj-class="text-paragraphs" padding-top="0" padding-bottom="0">
+               <div pardot-region="col-text" pardot-region-type="basic">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis facere, voluptatum, deserunt numquam necessitatibus nulla, accusantium quasi assumenda ab consequatur ratione architecto dolor sunt quod magni provident, dignissimos aspernatur tempore.</p>  
+               </div>
+            </mj-text>
+         </mj-column>
+
+         <mj-column padding-top="0" padding-bottom="0">
+            <mj-text align="left" mj-class="text-paragraphs" padding-top="0" padding-bottom="0">
+               <div pardot-region="col-text" pardot-region-type="basic">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis facere, voluptatum, deserunt numquam necessitatibus nulla, accusantium quasi assumenda ab consequatur ratione architecto dolor sunt quod magni provident, dignissimos aspernatur tempore.</p>  
+               </div>
+            </mj-text>
+         </mj-column>
+      </mj-section>   
+
+      <!-- buttons row -->
+      <mj-section background-color="#ffffff" padding-top="0">
+         <mj-column padding-top="0">
+
+            <!-- Begin Button -->
+            <mj-raw>
+               <tr>
+                 <td align="left" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                     <tr>
+                       <td align="center" bgcolor="#00904b" role="presentation" style="border:none;border-radius:3px;cursor:auto;padding:11px 45px;background:#00904b;" valign="middle">
+                         <a href="#" style="background:#00904b;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;" target="_blank" pardot-region="button" pardot-region-type="link"> Download action</a>
+                       </td>
+                     </tr>
+                   </table>
+                 </td>
+               </tr>
+            </mj-raw>
+            <!-- End Button -->
+
+         </mj-column>
+         <mj-column padding-top="0">
+
+            <!-- Begin Button -->
+            <mj-raw>
+               <tr>
+                 <td align="left" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                     <tr>
+                       <td align="center" bgcolor="#00904b" role="presentation" style="border:none;border-radius:3px;cursor:auto;padding:11px 45px;background:#00904b;" valign="middle">
+                         <a href="#" style="background:#00904b;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;" target="_blank" pardot-region="button" pardot-region-type="link"> Download action</a>
+                       </td>
+                     </tr>
+                   </table>
+                 </td>
+               </tr>
+            </mj-raw>
+            <!-- End Button -->
+
+         </mj-column>
+      </mj-section>
+
+      <mj-raw></div></mj-raw>
+
+      <mj-include path="../includes/master-de-de-footer-markup.mjml" />
+   </mj-body>
+</mjml>

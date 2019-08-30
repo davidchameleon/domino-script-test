@@ -1,0 +1,20 @@
+<mj-attributes>
+    <mj-class name="body" background-color="#ffffff" padding="0" />
+
+    <mj-all font-family="Arial,Helvetica,sans-serif" font-size="14px" />
+    <mj-class name="header" background-color="#ffffff" padding-top="15px" padding-bottom="15px" />
+    <mj-class name="header__item" padding-top="5px" padding-bottom="5px" align="center" />
+    <mj-class name="text-heading" font-size="24px" font-weight="500" line-height="29px" padding-bottom="0px" />
+    <mj-class name="text-paragraphs" font-size="14px" line-height="19px" />
+    <mj-class name="button-styles" background-color="#00904b" color="#ffffff" inner-padding="11px 45px" />
+    <mj-class name="listing__row" background-color="#ffffff" padding-top="5px" padding-bottom="5px" />
+    <mj-class name="media-object" background-color="#ffffff" padding-top="5px" padding-bottom="5px" />
+
+    <mj-class name="footer__row" background-color="#003b5c" padding-top="0" padding-bottom="0" />
+    <mj-class name="footer__text" font-size="13px" line-height="18px" color="#809dae" padding-top="6px" padding-bottom="6px" />
+    <mj-class name="footer__text_address" font-size="13px" line-height="18px" color="#FFFFFF" padding-top="6px" padding-bottom="6px" />
+    <mj-class name="footer__wave" padding-left="0" padding-right="0" padding-top="0" padding-bottom="0" margin="0" />
+
+    <mj-class name="text-heading" font-size="24px" font-weight="500" line-height="29px" padding-bottom="0px" />
+    <mj-class name="text-paragraphs" font-size="14px" line-height="19px" />
+</mj-attributes>

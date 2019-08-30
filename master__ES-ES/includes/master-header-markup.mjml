@@ -1,0 +1,34 @@
+<!-- Preheader Text -->
+<mj-raw>
+   <p pardot-region="Preheader" pardot-region-type="text" style="font-size: 10px; color: #CFCFCF; margin: 0px;">Preheader Preview text...</p>
+</mj-raw>
+
+<!-- View in browser Link -->
+<!-- https://www.pardot.com/blog/testing-view-online-tag/ -->
+<mj-raw>
+   <center>
+      <font size="2" face="arial">
+        <p style="margin-top:0;" pardot-region="view-online">Having trouble reading this email? <a href="%%view_online%%">View it in your browser</a>.</p>
+      </font>
+   </center> 
+</mj-raw>
+
+<!-- Email Header -->
+<mj-section mj-class="header">
+   <mj-column>
+      <mj-text mj-class="header__item" align="left">
+         <div class="header-logo">
+            <img src="https://go.domino-printing.com/l/182342/2019-02-11/31fdfy/182342/102628/master_dominoLogo_150x32.jpg" alt="Domino Printing Logo" width="155px" height="32px">
+         </div>
+      </mj-text>
+   </mj-column>
+
+   <mj-column>
+      <mj-text mj-class="header__item" align="right">
+         <div class="header-promo">
+            <img src="http://placehold.jp/155x32.png" alt="Email Header Promo" pardot-region="header-promo" pardot-removable="header-promo" pardot-region-type="image">
+         </div>
+      </mj-text>
+   </mj-column>
+</mj-section>
+<!-- ./ Email Header -->

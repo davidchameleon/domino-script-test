@@ -1,0 +1,61 @@
+<mjml>
+   <mj-head>
+      <mj-title>Domino Core: Event - Simple</mj-title>
+      <mj-include path="../includes/master-de-classes.mjml" />
+      <mj-include path="../includes/master-de-styles.mjml" />     
+   </mj-head>
+
+   <mj-body background-color="#f1f1f1">
+      <mj-include path="../includes/master-de-header-markup.mjml" />
+
+      <!-- Email Image -->
+      <mj-section padding="0">
+         <mj-column>
+            <mj-text padding="0">
+               <img src="http://placehold.jp/600x290.png" alt="" width="100%" pardot-region="hero-image" pardot-region-type="image">
+            </mj-text>
+         </mj-column>
+      </mj-section>
+      <!-- ./ Email Image -->
+
+      <!-- Email Body -->
+      <mj-section mj-class="body">
+         <mj-column>
+            <mj-spacer height="20px" />
+
+            <!-- Heading -->
+            <mj-text mj-class="text-heading">
+               <span pardot-region="heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui dolor sit amet.</span>
+            </mj-text>
+
+            <mj-spacer height="10px" />
+            
+            <!-- Paragraphs -->
+            <mj-text mj-class="text-paragraphs">
+               <div pardot-region="body" pardot-region-type="basic" pardot-removable>
+                  <p class="subtitle">Dear Customer,</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+                  <p>Nullam mattis, libero in ultricies accumsan, massa magna congue nisi, ut consequat nisl libero ac ante. Maecenas pretium facilisis tincidunt. Suspendisse orci dolor, maximus quis mauris nec, convallis mattis quam. Duis ultrices lorem vitae sapien convallis facilisis. Aenean fringilla lacinia dictum.</p>
+               </div>
+
+               <mj-raw>
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;" pardot-removable>
+                     <tr>
+                        <td align="center" bgcolor="#00904b" role="presentation" style="border:none;border-radius:3px;cursor:auto;padding:11px 45px;background:#00904b;" valign="middle">
+
+                           <a href="#" style="background:#00904b;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;" target="_blank" pardot-region="button" pardot-region-type="link">Download action</a>
+                        </td>
+                     </tr>
+                  </table>
+               </mj-raw>
+
+            </mj-text>
+
+            <mj-spacer height="30px" />
+         </mj-column>
+      </mj-section>
+      <!-- ./ Email Body -->
+
+      <mj-include path="../includes/master-de-de-footer-markup.mjml" />
+   </mj-body>
+</mjml>

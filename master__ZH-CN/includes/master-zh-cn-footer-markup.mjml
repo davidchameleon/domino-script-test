@@ -1,0 +1,148 @@
+<!-- Footer Row 1: Wave Graphic -->
+<mj-section mj-class="footer__wave">
+<mj-column>
+   <mj-text padding="0">
+      <img src="https://go.domino-printing.com/l/182342/2019-05-02/33j322/182342/117701/email_wave_blue.png" alt="Footer Wave Pattern" width="100%" style="display:block;">
+   </mj-text>
+
+</mj-column>
+</mj-section>
+
+<!-- Footer Row 2: Contact & Social -->
+<mj-section mj-class="footer__row">
+   <mj-column width="360px">
+      <mj-spacer height="10px" />
+      <mj-text mj-class="footer__text_address">
+         <span pardot-region="name" pardot-region-type="simple"><b>Domino UK Ltd</b></span> | 
+         <span pardot-region="website" class="footer-text-link"><a href="https://www.domino-printing.com/en-gb/home.aspx" target="_blank">www.domino-uk.com</a></span>
+      </mj-text>
+      <mj-text mj-class="footer__text_address">
+         <span pardot-region="address" pardot-region-type="simple">UK: Bar Hill Cambridge CB23 8TU</span> &nbsp;
+         <br>
+         <span pardot-region="telephone" pardot-region-type="simple">Tel: 01954 782056</span>
+         <br>
+         <br>
+      </mj-text>
+   </mj-column>
+
+   <mj-column width="240px">
+
+      <!-- Domino. Do More. Logo -->
+      <mj-text padding-bottom="3px">
+         <img src="https://go.domino-printing.com/l/182342/2019-05-02/33j2qg/182342/117699/email_strapline.png" width="155px" height="18px" class="email-strapline">
+      </mj-text>
+
+     <!-- SOCIAL ICONS RAW BEGINS -->
+      <mj-raw>
+        <tr>
+        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+        <!--[if mso | IE]>
+        <table
+        align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+        >
+        <tr>
+
+
+        <td>
+        <![endif]-->
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+        <tr>
+        <td style="padding:4px;">
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#EB3323;border-radius:3px;width:27px;">
+        <tr>
+        <td style="font-size:0;height:27px;vertical-align:middle;width:27px;" pardot-region="youku" pardot-region-type="simple">
+        <a href="https://i.youku.com/i/UMjg3MzYyNTI4MA==?spm=a2h0j.11185381.uerCenter.5!6~5!2~A" target="_blank">
+          <img height="27" src="https://go.domino-printing.com/l/182342/2019-07-30/35fxh8/182342/134573/zh_cn_youku.png" style="border-radius:3px;" width="27" />
+        </a>
+        </td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+        <!--[if mso | IE]>
+        </td>
+
+
+        <td>
+        <![endif]-->
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+        <tr>
+        <td style="padding:4px;">
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#0077b5;border-radius:3px;width:27px;">
+        <tr>
+        <td style="font-size:0;height:27px;vertical-align:middle;width:27px;" pardot-region="linkedin" pardot-region-type="simple">
+        <a href="https://www.linkedin.com/company/dominochina/" target="_blank">
+          <img height="27" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" style="border-radius:3px;" width="27" />
+        </a>
+        </td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+        <!--[if mso | IE]>
+        </td>
+
+
+        <td>
+        <![endif]-->
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+        <tr>
+        <td style="padding:4px;">
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;border-radius:3px;width:27px;">
+        <tr>
+        <td style="font-size:0;height:27px;vertical-align:middle;width:27px;" pardot-region="weibo" pardot-region-type="simple">
+        <a href="https://weibo.com/dominochina" target="_blank">
+          <img height="27" src="https://go.domino-printing.com/l/182342/2019-07-30/35fxdx/182342/134571/zh_cn_weibo.png" style="border-radius:3px;" width="27" />
+        </a>
+        </td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+        <!--[if mso | IE]>
+        </td>
+
+
+        </tr>
+        </table>
+        <![endif]-->
+        </td>
+        </tr>
+      </mj-raw>
+      <!-- SOCIAL ICONS RAW ENDS -->    
+
+      <!-- Begin WeChat barcode -->
+      <mj-text padding-top="0px" padding-bottom="0px">
+        <a href="http://weixin.qq.com/q/02VerI8j958OU10000w07V" target="_blank">
+          <img src="https://go.domino-printing.com/l/182342/2019-07-30/35fxk4/182342/134579/zh_cn_wechat.png">
+        </a>
+      </mj-text>        
+      <!-- End WeChat barcode -->
+   </mj-column>         
+</mj-section>
+
+<!-- Footer Row 3: Signoff -->
+<mj-section mj-class="footer__row">
+<mj-column>
+   <mj-spacer height="20px" />
+
+   <mj-text mj-class="footer__text">
+
+      <span pardot-region="email-preferences" pardot-region-type="simple" class="footer-text-link">
+       <a href="%%email_preference_center%%">Manage your email preferences </a> or <a href="%%unsubscribe%%">unsubscribe</a>.
+      </span>
+
+      <br>
+
+      <span pardot-region="email-footer-text" pardot-region-type="simple" class="footer-text-link">
+       All performance related figures and claims quoted in this document were obtained under specific conditions and may only be replicated under similar conditions. For specific product details, you should contact your Domino Sales Advisor. This document does not form part of any terms and conditions between you and Domino.
+      </span>
+
+   </mj-text>
+
+   <mj-spacer height="30px" />
+</mj-column>       
+</mj-section>

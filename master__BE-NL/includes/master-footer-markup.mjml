@@ -1,0 +1,166 @@
+<!-- Footer background wrapper -->
+<mj-raw>
+   <div style="background:#003b5c;max-width:600px;margin:auto;">
+</mj-raw>
+
+<!-- Footer Row 1: Wave Graphic -->
+<mj-section mj-class="footer__wave">
+<mj-column>
+   <mj-text padding="0">
+      <img src="https://go.domino-printing.com/l/182342/2019-05-02/33j322/182342/117701/email_wave_blue.png" alt="Footer Wave Pattern" width="100%" style="display:block;">
+   </mj-text>
+
+</mj-column>
+</mj-section>
+
+<!-- Footer Row 2: Contact & Social -->
+<mj-section mj-class="footer__row">
+   <mj-column width="360px">
+      <mj-spacer height="10px" />
+      <mj-text mj-class="footer__text_address">
+         <span pardot-region="name" pardot-region-type="simple"><b>Domino UK Ltd</b></span> | 
+         <span pardot-region="website" class="footer-text-link"><a href="https://www.domino-printing.com/en-gb/home.aspx" target="_blank">www.domino-uk.com</a></span>
+      </mj-text>
+      <mj-text mj-class="footer__text_address">
+         <span pardot-region="address" pardot-region-type="simple">UK: Bar Hill Cambridge CB23 8TU</span> &nbsp;
+         <br>
+         <span pardot-region="telephone" pardot-region-type="simple">Tel: 01954 782056</span>
+         <br>
+         <br>
+      </mj-text>
+   </mj-column>
+
+   <mj-column width="240px">
+
+      <!-- Domino. Do More. Logo -->
+      <mj-text padding-bottom="3px">
+         <img src="https://go.domino-printing.com/l/182342/2019-05-02/33j2qg/182342/117699/email_strapline.png" width="155px" height="18px" class="email-strapline">
+      </mj-text>
+
+     <!-- SOCIAL ICONS RAW BEGINS -->
+      <mj-raw>
+        <tr>
+        <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+        <!--[if mso | IE]>
+        <table
+        align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+        >
+        <tr>
+
+        <td>
+        <![endif]-->
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+        <tr>
+        <td style="padding:4px;">
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#3b5998;border-radius:3px;width:27px;">
+        <tr>
+        <td style="font-size:0;height:27px;vertical-align:middle;width:27px;" pardot-region="facebook" pardot-region-type="simple">
+        <a href="https://www.facebook.com/DominoPrinting" target="_blank">
+          <img height="27" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/facebook.png" style="border-radius:3px;" width="27" />
+        </a>
+        </td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+        <!--[if mso | IE]>
+        </td>
+
+        <td>
+        <![endif]-->
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+        <tr>
+        <td style="padding:4px;">
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#55acee;border-radius:3px;width:27px;">
+        <tr>
+        <td style="font-size:0;height:27px;vertical-align:middle;width:27px;" pardot-region="twitter" pardot-region-type="simple">
+        <a href="https://twitter.com/DominoPrint_BLX" target="_blank">
+          <img height="27" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png" style="border-radius:3px;" width="27" />
+        </a>
+        </td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+        <!--[if mso | IE]>
+        </td>
+
+        <td>
+        <![endif]-->
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+        <tr>
+        <td style="padding:4px;">
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#0077b5;border-radius:3px;width:27px;">
+        <tr>
+        <td style="font-size:0;height:27px;vertical-align:middle;width:27px;" pardot-region="linkedin" pardot-region-type="simple">
+        <a href="https://www.linkedin.com/company/domino-printing" target="_blank">
+          <img height="27" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png" style="border-radius:3px;" width="27" />
+        </a>
+        </td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+        <!--[if mso | IE]>
+        </td>
+
+        <td>
+        <![endif]-->
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
+        <tr>
+        <td style="padding:4px;">
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#EB3323;border-radius:3px;width:27px;">
+        <tr>
+        <td style="font-size:0;height:27px;vertical-align:middle;width:27px;" pardot-region="youtube" pardot-region-type="simple">
+        <a href="https://www.youtube.com/user/DominoCoderenPrinten" target="_blank">
+          <img height="27" src="https://www.mailjet.com/images/theme/v1/icons/ico-social/youtube.png" style="border-radius:3px;" width="27" />
+        </a>
+        </td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+        <!--[if mso | IE]>
+        </td>
+
+        </tr>
+        </table>
+        <![endif]-->
+        </td>
+        </tr>
+      </mj-raw>
+      <!-- SOCIAL ICONS RAW ENDS -->            
+   </mj-column>         
+</mj-section>
+
+<!-- Footer Row 3: Signoff -->
+<mj-section mj-class="footer__row">
+<mj-column>
+   <mj-spacer height="20px" />
+
+   <mj-text mj-class="footer__text">
+
+      <span pardot-region="email-preferences" pardot-region-type="simple" class="footer-text-link">
+       <a href="%%email_preference_center%%">Manage your email preferences </a> or <a href="%%unsubscribe%%">unsubscribe</a>.
+      </span>
+
+      <br>
+
+      <span pardot-region="email-footer-text" pardot-region-type="simple" class="footer-text-link">
+       All performance related figures and claims quoted in this document were obtained under specific conditions and may only be replicated under similar conditions. For specific product details, you should contact your Domino Sales Advisor. This document does not form part of any terms and conditions between you and Domino.
+      </span>
+
+   </mj-text>
+
+   <mj-spacer height="30px" />
+</mj-column>       
+</mj-section>
+
+<!-- Ends footer background wrapper -->
+<mj-raw>
+   </div>
+</mj-raw>

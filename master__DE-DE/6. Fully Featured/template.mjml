@@ -1,0 +1,448 @@
+<mjml>
+   <mj-head>
+      <mj-title>Domino Core: Full Set</mj-title>
+      <mj-include path="../includes/master-de-classes.mjml" />
+      <mj-include path="../includes/master-de-styles.mjml" />  
+   </mj-head>
+
+   <mj-body background-color="#f1f1f1">
+      <mj-include path="../includes/master-de-header-markup.mjml" />
+
+      <!-- HERO IMAGE -->
+      <mj-raw><div pardot-repeatable="hero-row"></mj-raw>
+      <mj-section padding="0">
+         <mj-column>
+            <mj-text padding="0">
+               <img src="http://placehold.jp/600x290.png" alt="" width="100%" pardot-region="hero-image" pardot-region-type="image">
+            </mj-text>
+         </mj-column>
+      </mj-section>
+      <mj-raw></div></mj-raw>
+      <!-- ./ Email Image -->
+
+      <!-- SECTION 1: LEFT ALIGNED TEXT BLOCK -->
+      <mj-raw><div pardot-repeatable="la-text-block"></mj-raw>
+
+      <mj-section mj-class="body">
+         <mj-column>
+            <mj-spacer height="20px" />
+
+            <!-- Heading -->
+            <mj-text mj-class="text-heading">
+               <span pardot-region="heading" pardot-region-type="basic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui dolor sit amet.</span>
+            </mj-text>
+
+            <mj-spacer height="10px" />
+            
+            <!-- Paragraphs -->
+            <mj-text mj-class="text-paragraphs">
+               <div pardot-region="body" pardot-region-type="basic">
+                  <p class="subtitle">Dear Customer,</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+                  <p>Nullam mattis, libero in ultricies accumsan, massa magna congue nisi, ut consequat nisl libero ac ante. Maecenas pretium facilisis tincidunt. Suspendisse orci dolor, maximus quis mauris nec, convallis mattis quam. Duis ultrices lorem vitae sapien convallis facilisis. Aenean fringilla lacinia dictum.</p>
+               </div>
+
+               <mj-raw>
+                  <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                     <tr>
+                        <td align="left" bgcolor="#00904b" role="presentation" style="border:none;border-radius:3px;cursor:auto;padding:11px 45px;background:#00904b;" valign="middle">
+
+                           <a href="#" style="background:#00904b;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;" target="_blank" pardot-region="button" pardot-region-type="link">Download action</a>
+                        </td>
+                     </tr>
+                  </table>
+               </mj-raw>
+
+            </mj-text>
+
+            <mj-spacer height="30px" />
+         </mj-column>
+      </mj-section>
+
+      <mj-raw></div></mj-raw>
+      <!-- ./ SECTION 1: LEFT ALIGNED TEXT BLOCK -->
+
+      <!-- SECTION 2: CENTERED TEXT BLOCK -->
+      <mj-raw><div pardot-repeatable="ca-text-block"></mj-raw>
+      <mj-section mj-class="body">
+         <mj-column>
+            <mj-spacer height="20px" />
+
+            <!-- Heading -->
+            <mj-text mj-class="text-heading" align="center">
+               <span pardot-region="heading" pardot-region-type="basic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui dolor sit amet.</span>
+            </mj-text>
+
+            <mj-spacer height="10px" />
+            
+            <!-- Paragraphs -->
+            <mj-text mj-class="text-paragraphs" align="center">
+               <div pardot-region="body" pardot-region-type="basic">
+                  <p class="subtitle">Dear Customer,</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+                  <p>Nullam mattis, libero in ultricies accumsan, massa magna congue nisi, ut consequat nisl libero ac ante. Maecenas pretium facilisis tincidunt. Suspendisse orci dolor, maximus quis mauris nec, convallis mattis quam. Duis ultrices lorem vitae sapien convallis facilisis. Aenean fringilla lacinia dictum.</p>
+               </div>
+
+               <mj-raw>
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                     <tr>
+                        <td align="center" bgcolor="#00904b" role="presentation" style="border:none;border-radius:3px;cursor:auto;padding:11px 45px;background:#00904b;" valign="middle">
+
+                           <a href="#" style="background:#00904b;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;" target="_blank" pardot-region="button" pardot-region-type="link">Download action</a>
+                        </td>
+                     </tr>
+                  </table>
+               </mj-raw>
+
+            </mj-text>
+
+            <mj-spacer height="30px" />
+         </mj-column>
+      </mj-section>
+      <mj-raw></div></mj-raw>
+      <!-- ./ SECTION 2: CENTERED TEXT BLOCK -->
+
+
+      <!-- SECTION 3: CENTERED TEXT BLOCK WITH IMAGE -->
+      <mj-raw><div pardot-repeatable="ca-text-block-img"></mj-raw>
+      <mj-section mj-class="body">
+         <mj-column>
+            <mj-spacer height="20px" />
+
+            <mj-text>
+                <img src="http://placehold.jp/550x250.png" pardot-region="feat-img" pardot-region-type="image">
+            </mj-text>
+
+            <mj-spacer height="10px" />
+
+            <!-- Heading -->
+            <mj-text mj-class="text-heading" align="center">
+               <span pardot-region="heading" pardot-region-type="basic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui dolor sit amet.</span>
+            </mj-text>
+            
+            <!-- Paragraphs -->
+            <mj-text mj-class="text-paragraphs" align="center">
+               <div pardot-region="body" pardot-region-type="basic">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+               </div>
+
+               <mj-raw>
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                     <tr>
+                        <td align="center" bgcolor="#00904b" role="presentation" style="border:none;border-radius:3px;cursor:auto;padding:11px 45px;background:#00904b;" valign="middle">
+
+                           <a href="#" style="background:#00904b;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;" target="_blank" pardot-region="button" pardot-region-type="link">Download action</a>
+                        </td>
+                     </tr>
+                  </table>
+               </mj-raw>
+
+            </mj-text>
+
+            <mj-spacer height="30px" />
+         </mj-column>
+      </mj-section>
+      <mj-raw></div></mj-raw>
+      <!-- ./ SECTION 3: CENTERED TEXT BLOCK WITH IMAGE -->
+
+      <!-- SECTION 4: TWO COLUMNS PLAIN TEXT -->
+      <mj-raw><div pardot-repeatable="two-col-text"></mj-raw>
+         <mj-section mj-class="body">
+           <mj-column>
+               <mj-text mj-class="text-paragraphs" padding-bottom="0">
+                   <div pardot-region="text-block1">
+                     <p><b>Sub title</b></p>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+                   </div>
+               </mj-text>
+           </mj-column>
+
+           <mj-column>
+               <mj-text mj-class="text-paragraphs"  padding-bottom="0">
+                   <div pardot-region="text-block2">
+                     <p><b>Sub title</b></p>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+                   </div>
+               </mj-text>
+           </mj-column> 
+         </mj-section>
+      <mj-raw></div></mj-raw>   
+      <!-- ./ SECTION 4: TWO COLUMNS PLAIN TEXT -->
+
+      <!-- SECTION 5: TWO COLUMNS PLAIN TEXT WITH BUTTONS -->
+      <mj-raw><div pardot-repeatable="two-col-text-img"></mj-raw>
+      <mj-section mj-class="body">
+         <mj-column>
+            <mj-text mj-class="text-paragraphs" padding-bottom="0">
+            <div pardot-region="text-block3">
+              <p><b>Sub title</b></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+            </div>
+            </mj-text>
+            <!-- MJMLBUTTON STARTS 1 -->
+            <mj-raw>
+              <tr>
+                <td align="center" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:100%;line-height:100%;">
+                    <tr>
+                      <td align="center" bgcolor="#00904b" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:11px 45px;background:#00904b;" valign="middle">
+                        <a href="#" style="display:inline-block;background:#00904b;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;padding:11px 45px;mso-padding-alt:0px;border-radius:3px;" target="_blank" pardot-region="button" pardot-region-type="link">MJMLBUTTON</a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </mj-raw>
+            <!-- MJMLBUTTON ENDS -->
+         </mj-column>
+
+         <mj-column>
+            <mj-text mj-class="text-paragraphs" padding-bottom="0">
+                <div pardot-region="text-block4">
+                  <p><b>Sub title</b></p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+                </div>
+            </mj-text>
+
+            <!-- MJMLBUTTON STARTS 2 -->
+            <mj-raw>
+               <tr>
+                 <td align="center" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:100%;line-height:100%;">
+                     <tr>
+                       <td align="center" bgcolor="#00904b" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:11px 45px;background:#00904b;" valign="middle">
+                         <a href="#" style="display:inline-block;background:#00904b;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;padding:11px 45px;mso-padding-alt:0px;border-radius:3px;" target="_blank" pardot-region="button" pardot-region-type="link"> MJMLBUTTON </a>
+                       </td>
+                     </tr>
+                   </table>
+                 </td>
+               </tr>
+            </mj-raw>  
+            <!-- MJMLBUTTON ENDS -->
+         </mj-column> 
+      </mj-section>
+      <mj-raw></div></mj-raw> 
+      <!-- ./ SECTION 5: TWO COLUMNS PLAIN TEXT WITH BUTTONS -->
+
+      <!-- SECTION 6: TWO COLUMNS PLAIN TEXT WITH BUTTONS & IMAGES NEW -->
+      <mj-raw><div pardot-repeatable="two-col-img-txt-btn"></mj-raw>
+      <!-- Images Row -->
+      <mj-section mj-class="body" padding-bottom="0">
+         <mj-column padding-bottom="0">
+            <mj-text padding-bottom="0">
+               <img src="http://placehold.jp/250x130.png" pardot-region="feat-img" pardot-region-type="image">
+            </mj-text>
+         </mj-column>
+            <mj-column padding-bottom="0">
+            <mj-text padding-bottom="0">
+               <img src="http://placehold.jp/250x130.png" pardot-region="feat-img" pardot-region-type="image">
+            </mj-text>
+         </mj-column>     
+      </mj-section>
+
+      <!-- Text Row -->
+      <mj-section mj-class="body">
+         <mj-column>
+            <mj-text mj-class="text-paragraphs">
+               <div pardot-region="text-block">
+                  <p style="margin:0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+               </div>
+            </mj-text>
+         </mj-column>
+            <mj-column>
+            <mj-text mj-class="text-paragraphs">
+               <div pardot-region="text-block">
+                  <p style="margin:0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+               </div>
+            </mj-text>
+         </mj-column>     
+      </mj-section>
+
+      <mj-section mj-class="body">
+         <mj-column>
+            <!-- MJMLBUTTON STARTS -->
+            <mj-raw>
+            <tr>
+            <td align="center" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:100%;line-height:100%;">
+            <tr>
+            <td align="center" bgcolor="#00904b" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:11px 45px;background:#00904b;" valign="middle">
+            <a href="#" style="display:inline-block;background:#00904b;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;padding:11px 45px;mso-padding-alt:0px;border-radius:3px;" target="_blank" pardot-region="button" pardot-region-type="link"> MJMLBUTTON </a>
+            </td>
+            </tr>
+            </table>
+            </td>
+            </tr>
+            </mj-raw>
+            <!-- MJMLBUTTON ENDS -->
+         </mj-column>    
+         <mj-column>
+            <!-- MJMLBUTTON STARTS -->
+            <mj-raw>
+            <tr>
+            <td align="center" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:100%;line-height:100%;">
+            <tr>
+            <td align="center" bgcolor="#00904b" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:11px 45px;background:#00904b;" valign="middle">
+            <a href="#" style="display:inline-block;background:#00904b;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;padding:11px 45px;mso-padding-alt:0px;border-radius:3px;" target="_blank" pardot-region="button" pardot-region-type="link"> MJMLBUTTON </a>
+            </td>
+            </tr>
+            </table>
+            </td>
+            </tr>
+            </mj-raw>
+            <!-- MJMLBUTTON ENDS -->
+         </mj-column> 
+         </mj-section>
+      <mj-raw></div></mj-raw> 
+      <!-- ./ SECTION 6: TWO COLUMNS PLAIN TEXT WITH BUTTONS & IMAGES NEW ENDS -->
+
+      <!-- SECTION 7: THREE COLUMNS OF PLAIN TEXT-->
+      <mj-raw><div pardot-repeatable="three-col-txt"></mj-raw>
+      <mj-section mj-class="body">
+         <mj-column>
+            <mj-text mj-class="text-paragraphs">
+                  <div pardot-region="text-block7">
+                  <p><b>Sub title</b></p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+                  </div>
+            </mj-text>
+         </mj-column>
+
+         <mj-column>
+            <mj-text mj-class="text-paragraphs">
+                  <div pardot-region="text-block8">
+                  <p><b>Sub title</b></p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+                  </div>
+            </mj-text>
+         </mj-column> 
+
+         <mj-column>
+            <mj-text mj-class="text-paragraphs">
+                  <div pardot-region="text-block9">
+                  <p><b>Sub title</b></p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+                  </div>
+            </mj-text>
+         </mj-column>        
+      </mj-section>
+      <mj-raw></div></mj-raw> 
+      <!-- ./ SECTION 7: THREE COLUMNS OF PLAIN TEXT -->
+
+      <!-- SECTION8: THREE COLUMNS OF PLAIN TEXT WITH IMAGES NEW -->
+      <mj-raw><div pardot-repeatable="three-col-text-img"></mj-raw>
+
+         <!-- Images Row -->
+         <mj-section mj-class="body">
+            <mj-column padding-bottom="0">
+               <mj-text padding-bottom="0"> <img src="http://placehold.jp/150x78.png" pardot-region="feat-img" pardot-region-type="image"></mj-text>
+            </mj-column>
+
+            <mj-column padding-bottom="0">
+               <mj-text padding-bottom="0"> <img src="http://placehold.jp/150x78.png" pardot-region="feat-img" pardot-region-type="image"></mj-text>
+            </mj-column>
+
+            <mj-column padding-bottom="0">
+               <mj-text padding-bottom="0"> <img src="http://placehold.jp/150x78.png" pardot-region="feat-img" pardot-region-type="image"></mj-text>
+            </mj-column>         
+         </mj-section>
+
+         <!-- Text Row -->
+         <mj-section mj-class="body">
+            <mj-column padding-top="0">
+               <mj-text mj-class="text-paragraphs" padding-top="0">
+                  <div pardot-region="text-block">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+                  </div>
+               </mj-text>
+            </mj-column>
+
+            <mj-column padding-top="0">
+               <mj-text mj-class="text-paragraphs" padding-top="0">
+                  <div pardot-region="text-block">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+                  </div>
+               </mj-text>
+            </mj-column>
+
+            <mj-column padding-top="0">
+               <mj-text mj-class="text-paragraphs" padding-top="0">
+                  <div pardot-region="text-block">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+                  </div>
+               </mj-text>
+            </mj-column>         
+         </mj-section>
+
+      <mj-raw></div></mj-raw>
+      <!-- ./ SECTION8: THREE COLUMNS OF PLAIN TEXT WITH IMAGES NEW -->
+
+      <!-- MEDIA OBJECT LISTING -->
+      <mj-raw><div pardot-removable pardot-repeatable="media-object-row"></mj-raw>
+      <mj-section mj-class="media-object">
+      <mj-column width="32%">
+      <mj-text padding-right="0px">
+      <img src="http://placehold.jp/163x126.png" alt="Repeated Image" pardot-region="list-item-image" pardot-region-type="image">
+      </mj-text>
+      </mj-column>
+
+      <mj-column width="68%">
+      <mj-text align="left" mj-class="text-paragraphs">
+         <p class="subtitle" pardot-region="list-item-subtitle" pardot-region-type="simple">Sub Heading</p>
+         <div pardot-region="list-item-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime at nemo saepe ipsa sit eos doloremque deleniti necessitatibus obcaecati nostrum, amet possimus quaerat nisi deserunt assumenda magnam cumque, beatae, voluptatem.</p>
+         </div>
+         <!-- ./ MEDIA OBJECT LISTING -->
+
+         <!-- Media Object Button -->
+         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;" pardot-removable>
+            <tr>
+            <td align="center" bgcolor="#00904b" role="presentation" style="border:none;border-radius:3px;cursor:auto;padding:11px 45px;background:#00904b;" valign="middle">
+            <a href="#" style="background:#00904b;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;" target="_blank" pardot-region="button" pardot-region-type="link">Button here</a>
+            </td>
+            </tr>
+         </table>
+         <!-- ./ Media Object Button -->
+      </mj-text>
+      </mj-column>
+      </mj-section>
+      <mj-raw></div></mj-raw>
+
+      <!-- MEDIA OBJECT LISTING -->
+      <mj-raw><div pardot-removable pardot-repeatable="media-object-row"></mj-raw>
+      <mj-section mj-class="media-object">
+      
+      <mj-column width="68%">
+         <mj-text align="left" mj-class="text-paragraphs">
+            <p class="subtitle" pardot-region="list-item-subtitle" pardot-region-type="simple">Sub Heading</p>
+            <div pardot-region="list-item-text">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime at nemo saepe ipsa sit eos doloremque deleniti necessitatibus obcaecati nostrum, amet possimus quaerat nisi deserunt assumenda magnam cumque, beatae, voluptatem.</p>
+            </div>
+            <!-- ./ MEDIA OBJECT LISTING -->
+
+            <!-- Media Object Button -->
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;" pardot-removable>
+               <tr>
+               <td align="center" bgcolor="#00904b" role="presentation" style="border:none;border-radius:3px;cursor:auto;padding:11px 45px;background:#00904b;" valign="middle">
+               <a href="#" style="background:#00904b;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;" target="_blank" pardot-region="button" pardot-region-type="link">Button here</a>
+               </td>
+               </tr>
+            </table>
+            <!-- ./ Media Object Button -->
+         </mj-text>
+      </mj-column>
+
+      <mj-column width="32%">
+         <mj-text padding-left="0px">
+            <img src="http://placehold.jp/163x126.png" alt="Repeated Image" pardot-region="list-item-image" pardot-region-type="image">
+         </mj-text>
+      </mj-column>
+
+      </mj-section>
+      <mj-raw></div></mj-raw>
+
+      <mj-include path="../includes/master-de-de-footer-markup.mjml" />
+
+   </mj-body>
+</mjml>

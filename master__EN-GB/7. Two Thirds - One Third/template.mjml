@@ -1,0 +1,82 @@
+<mjml>
+   <mj-head>
+      <mj-title>Domino: Two Thirds, One Third</mj-title>
+      <mj-include path="../includes/master-classes.mjml" />
+      <mj-include path="../includes/master-styles.mjml" />     
+   </mj-head>
+
+   <mj-body background-color="#f1f1f1">
+      <mj-include path="../includes/master-header-markup.mjml" />
+
+      <!-- HERO IMAGE -->
+      <mj-section padding-top="0" padding-bottom="0" background-color="#FFFFFF">
+         <mj-column>
+            <mj-text padding-top="0" padding-bottom="0" padding-left="0" padding-right="0">
+               <img src="http://placehold.jp/600x290.png" alt="" width="100%" pardot-region="hero-image" pardot-region-type="image">
+            </mj-text>
+         </mj-column>
+      </mj-section>
+      <!-- ./ HERO IMAGE -->
+
+      <!-- SECTION 1: LEFT ALIGNED TEXT BLOCK -->
+      <mj-raw><div pardot-repeatable="la-text-block"></mj-raw>
+
+      <mj-section mj-class="body">
+         <mj-column width="65%">
+
+            <!-- Paragraphs -->
+            <mj-text mj-class="text-paragraphs">
+               <div pardot-region="body" pardot-region-type="basic">
+                  <p><b>NEW HERE!!!! Hello [Customer Name]</b>,</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
+                  <p>Nullam mattis, libero in ultricies accumsan, massa magna congue nisi, ut consequat nisl libero ac ante. Maecenas pretium facilisis tincidunt. Suspendisse orci dolor, maximus quis mauris nec, convallis mattis quam. Duis ultrices lorem vitae sapien convallis facilisis. Aenean fringilla lacinia dictum.</p>
+                  <p>Nullam mattis, libero in ultricies accumsan, massa magna congue nisi, ut consequat nisl libero ac ante. Maecenas pretium facilisis tincidunt. Suspendisse orci dolor, maximus quis mauris nec, convallis mattis quam. Duis ultrices lorem vitae sapien convallis facilisis. Aenean fringilla lacinia dictum.</p>
+                  <p>Nullam mattis, libero in ultricies accumsan, massa magna congue nisi, ut consequat nisl libero ac ante. Maecenas pretium facilisis tincidunt. Suspendisse orci dolor, maximus quis mauris nec, convallis mattis quam. Duis ultrices lorem vitae sapien convallis facilisis. Aenean fringilla lacinia dictum.</p>
+               </div>
+
+               <mj-raw>
+                  <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;" pardot-removable>
+                     <tr>
+                        <td align="left" bgcolor="#00904b" role="presentation" style="border:none;border-radius:3px;cursor:auto;padding:11px 45px;background:#00904b;" valign="middle">
+
+                           <a href="#" style="background:#00904b;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;line-height:120%;Margin:0;text-decoration:none;text-transform:none;" target="_blank" pardot-region="button" pardot-region-type="link">Download action</a>
+                        </td>
+                     </tr>
+                  </table>
+               </mj-raw>
+
+            </mj-text>
+
+            <mj-spacer height="30px" />
+         </mj-column>
+
+         <mj-column width="35%">
+            <mj-text mj-class="text-paragraphs" padding-top="30px">
+               <img src="http://placehold.jp/160x240.png" pardot-region="img-1" pardot-region-type="image" pardot-removable>
+               <div pardot-region="txt-1" pardot-region-type="simple" pardot-removable>Picture caption to go here</div>
+            </mj-text>
+
+            <mj-text mj-class="text-paragraphs">
+               <div pardot-region="txt-2" pardot-region-type="simple" pardot-removable>
+                  <div><b>Some text to go here</b></div>
+                  <div>Tel: 000 000 000</div>
+                  <div><a href="mailto:email@domain.com">email@domain.com</a></div>
+               </div>
+            </mj-text>
+
+            <mj-text mj-class="text-paragraphs">
+               <div pardot-region="txt-3" pardot-region-type="simple" pardot-removable>
+                  <div><b>Some text to go here</b></div>
+                  <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus.</div>
+               </div>
+            </mj-text>        
+         </mj-column>
+
+      </mj-section>
+
+      <mj-raw></div></mj-raw>
+      <!-- ./ SECTION 1: LEFT ALIGNED TEXT BLOCK -->
+
+      <mj-include path="../includes/master-footer-markup.mjml" />
+   </mj-body>
+</mjml>
