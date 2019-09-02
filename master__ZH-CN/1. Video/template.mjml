@@ -25,7 +25,7 @@
 
             <!-- Heading -->
             <mj-text align="center" mj-class="text-heading">
-               <span pardot-region="heading-text" pardot-removable="heading-text">Follow the white rabbit neo... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui dolor sit amet.</span>
+               <span pardot-region="heading-text" pardot-removable="heading-text">Follow the white rabbit mr.neo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui dolor sit amet.</span>
             </mj-text>
             
             <!-- Paragraphs -->
