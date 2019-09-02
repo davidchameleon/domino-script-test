@@ -1,13 +1,12 @@
 <mjml>
    <mj-head>
       <mj-title>Domino Core: Multi-List</mj-title>
-      <mj-include path="../includes/master-zh-cn-classes.mjml" />
-      <mj-include path="../includes/master-zh-cn-styles.mjml" /> 
+      <mj-include path="../includes/master-classes.mjml" />
+      <mj-include path="../includes/master-styles.mjml" />
    </mj-head>
 
    <mj-body background-color="#f1f1f1">
-
-      <mj-include path="../includes/master-zh-cn-header-markup.mjml" />
+      <mj-include path="../includes/master-header-markup.mjml" />
 
       <!-- Email Image -->
       <mj-section padding="0">
@@ -27,7 +26,7 @@
             <!-- Heading -->
             <mj-text mj-class="text-heading">
               <span pardot-region="heading-text" pardot-region-type="basic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui dolor sit amet.
+              NEW UPDATE 2!!!! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui dolor sit amet.
               </span>
             </mj-text>
             
@@ -175,7 +174,6 @@
       </mj-section>     
       <!-- ./ Email Body: Secondary Ends -->
 
-      <mj-include path="../includes/master-zh-cn-footer-markup.mjml" />
-
+      <mj-include path="../includes/master-footer-markup.mjml" />
    </mj-body>
 </mjml>

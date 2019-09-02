@@ -25,7 +25,8 @@
 
             <!-- Heading -->
             <mj-text mj-class="text-heading">
-               <span pardot-region="heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui dolor sit amet.</span>
+               <span pardot-region="heading">
+               NEW HERE!!!!  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui dolor sit amet.</span>
             </mj-text>
 
             <mj-spacer height="10px" />

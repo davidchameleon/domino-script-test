@@ -1,12 +1,12 @@
 <mjml>
    <mj-head>
       <mj-title>Domino Core: Event - Simple</mj-title>
-      <mj-include path="../includes/master-zh-cn-classes.mjml" />
-      <mj-include path="../includes/master-zh-cn-styles.mjml" />  
+      <mj-include path="../includes/master-classes.mjml" />
+      <mj-include path="../includes/master-styles.mjml" />
    </mj-head>
 
    <mj-body background-color="#f1f1f1">
-      <mj-include path="../includes/master-zh-cn-header-markup.mjml" />
+      <mj-include path="../includes/master-header-markup.mjml" />
 
       <!-- Email Image -->
       <mj-section padding="0">
@@ -25,7 +25,8 @@
 
             <!-- Heading -->
             <mj-text mj-class="text-heading">
-               <span pardot-region="heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui dolor sit amet.</span>
+               <span pardot-region="heading">
+               NEW HERE!!!!  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui dolor sit amet.</span>
             </mj-text>
 
             <mj-spacer height="10px" />
@@ -48,7 +49,7 @@
                      </tr>
                   </table>
                </mj-raw>
-
+               
             </mj-text>
 
             <mj-spacer height="30px" />
@@ -56,7 +57,7 @@
       </mj-section>
       <!-- ./ Email Body -->
 
-      <mj-include path="../includes/master-zh-cn-footer-markup.mjml" />
+      <mj-include path="../includes/master-footer-markup.mjml" />
 
    </mj-body>
 </mjml>

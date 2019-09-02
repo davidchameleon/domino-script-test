@@ -1,12 +1,12 @@
 <mjml>
    <mj-head>
       <mj-title>Domino: Two Thirds, One Third</mj-title>
-      <mj-include path="../includes/master-zh-cn-classes.mjml" />
-      <mj-include path="../includes/master-zh-cn-styles.mjml" />     
+      <mj-include path="../includes/master-classes.mjml" />
+      <mj-include path="../includes/master-styles.mjml" />     
    </mj-head>
 
    <mj-body background-color="#f1f1f1">
-      <mj-include path="../includes/master-zh-cn-header-markup.mjml" />
+      <mj-include path="../includes/master-header-markup.mjml" />
 
       <!-- HERO IMAGE -->
       <mj-section padding-top="0" padding-bottom="0" background-color="#FFFFFF">
@@ -27,7 +27,7 @@
             <!-- Paragraphs -->
             <mj-text mj-class="text-paragraphs">
                <div pardot-region="body" pardot-region-type="basic">
-                  <p><b>Hello [Customer Name]</b>,</p>
+                  <p><b>NEW HERE!!!! Hello [Customer Name]</b>,</p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non risus dui. Etiam volutpat, tellus et hendrerit rutrum, orci magna rhoncus massa, nec efficitur nibh erat eu tortor. Aliquam congue, tortor quis pulvinar ultricies, dolor lectus finibus est, eget pharetra libero urna vitae nisl.</p>
                   <p>Nullam mattis, libero in ultricies accumsan, massa magna congue nisi, ut consequat nisl libero ac ante. Maecenas pretium facilisis tincidunt. Suspendisse orci dolor, maximus quis mauris nec, convallis mattis quam. Duis ultrices lorem vitae sapien convallis facilisis. Aenean fringilla lacinia dictum.</p>
                   <p>Nullam mattis, libero in ultricies accumsan, massa magna congue nisi, ut consequat nisl libero ac ante. Maecenas pretium facilisis tincidunt. Suspendisse orci dolor, maximus quis mauris nec, convallis mattis quam. Duis ultrices lorem vitae sapien convallis facilisis. Aenean fringilla lacinia dictum.</p>
@@ -77,7 +77,6 @@
       <mj-raw></div></mj-raw>
       <!-- ./ SECTION 1: LEFT ALIGNED TEXT BLOCK -->
 
-      <mj-include path="../includes/master-zh-cn-footer-markup.mjml" />
-
+      <mj-include path="../includes/master-footer-markup.mjml" />
    </mj-body>
 </mjml>
